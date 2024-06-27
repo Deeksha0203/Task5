@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+h1{
+    background: linear-gradient(darkgreen, aqua);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 20px 30px 0px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    line-height: 25px;
+}
+
+p{
+    margin: 10px 230px;
+}
+
+.level{
+    margin-top: 10px;
+}
+
+.content{
+    margin-top: 10px;
+}
+
+.level:hover{
+    background-color: gray;
+}
